@@ -48,13 +48,13 @@
   </Target>
   -->
   <ItemGroup>
-    <ProjectReference Include="Annotation\Annotation.csproj">
-      <Project>{AD3C2F49-5C3B-46D3-A283-600FE11A0AA1}</Project>
-      <Name>Annotation</Name>
-    </ProjectReference>
-    <ProjectReference Include="Core\Api\Api.csproj">
+    <ProjectReference Include="Annotation\Api.csproj">
       <Project>{AD3C2F49-5C3B-46D3-A283-600FE11A0AA2}</Project>
       <Name>Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="Core\Api\Annotation.csproj">
+      <Project>{AD3C2F49-5C3B-46D3-A283-600FE11A0AA1}</Project>
+      <Name>Annotation</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
