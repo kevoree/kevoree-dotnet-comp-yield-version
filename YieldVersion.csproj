@@ -49,11 +49,11 @@
   -->
   <ItemGroup>
     <ProjectReference Include="Annotation\Annotation.csproj">
-      <Project>{AD3C2F49-5C3B-46D3-A283-600FE11A0AA0}</Project>
+      <Project>{AD3C2F49-5C3B-46D3-A283-600FE11A0AA1}</Project>
       <Name>Annotation</Name>
     </ProjectReference>
     <ProjectReference Include="Core\Api\Api.csproj">
-      <Project>{AD3C2F49-5C3B-46D3-A283-600FE11A0AA0}</Project>
+      <Project>{AD3C2F49-5C3B-46D3-A283-600FE11A0AA2}</Project>
       <Name>Api</Name>
     </ProjectReference>
   </ItemGroup>
