@@ -7,8 +7,8 @@
     <ProjectGuid>{AD3C2F49-5C3B-46D3-A283-600FE11A0AA0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>YieldVerion</RootNamespace>
-    <AssemblyName>YieldVerion</AssemblyName>
+    <RootNamespace>YieldVersion</RootNamespace>
+    <AssemblyName>YieldVersion</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -22,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
@@ -31,13 +30,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="Annotation">
+      <HintPath>packages\org-kevoree-annotation.2.0.0\lib\net40\Annotation.dll</HintPath>
+    </Reference>
+    <Reference Include="Log">
+      <HintPath>packages\org-kevoree-log.1.0.1\lib\net40\Log.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Api">
+      <HintPath>packages\org-kevoree-api.1.0.0\lib\net40\Core.Api.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -48,13 +53,6 @@
   </Target>
   -->
   <ItemGroup>
-    <ProjectReference Include="Annotation\Api.csproj">
-      <Project>{AD3C2F49-5C3B-46D3-A283-600FE11A0AA2}</Project>
-      <Name>Api</Name>
-    </ProjectReference>
-    <ProjectReference Include="Core\Api\Annotation.csproj">
-      <Project>{AD3C2F49-5C3B-46D3-A283-600FE11A0AA1}</Project>
-      <Name>Annotation</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
