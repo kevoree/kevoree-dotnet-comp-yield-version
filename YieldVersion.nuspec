@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>org-kevoree-yield-version</id>
+    <version>1.0.0</version>
+    <title>Kevoree Yield Version</title>
+    <authors>Manuel Leduc</authors>
+    <owners>Kevoree</owners>
+    <licenseUrl>https://github.com/kevoree/kevoree-dotnet-comp-yield-version/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/kevoree/kevoree-dotnet-comp-yield-version</projectUrl>
+    <iconUrl>https://avatars3.githubusercontent.com/u/5556542?v=3&amp;s=200</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simple component which yield its version every second</description>
+    <releaseNotes>Yield 1.0.0</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>Kevoree Component Yield</tags>
+  </metadata>
+  <files>
+    <file src="bin/Release/YieldVersion.dll" target="lib/net40/YieldVersion.dll" />
+  </files>
+</package>
