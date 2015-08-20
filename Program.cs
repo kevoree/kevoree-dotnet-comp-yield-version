@@ -12,7 +12,7 @@ namespace Org.Kevoree.YieldVersion
 	class YieldVersion
 	{
 		private bool StopMe;
-		private readonly string VERSION = "2.0.0";
+		private readonly string VERSION = "3.0.0";
 		private Log.Log logger = Log.LogFactory.getLog (typeof(YieldVersion).ToString (), Log.Level.DEBUG, "YieldVersion");
 
 		[Output]

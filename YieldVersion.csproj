@@ -11,6 +11,8 @@
     <AssemblyName>YieldVersion</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -37,7 +39,7 @@
       <HintPath>packages\org-kevoree-log.1.0.1\lib\net40\Log.dll</HintPath>
     </Reference>
     <Reference Include="Core.Api">
-      <HintPath>packages\org-kevoree-api.1.0.0\lib\net40\Core.Api.dll</HintPath>
+      <HintPath>packages\org-kevoree-api.1.2.0\lib\net40\Core.Api.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
