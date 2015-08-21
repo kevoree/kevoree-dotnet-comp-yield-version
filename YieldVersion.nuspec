@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>org-kevoree-yield-version</id>
-    <version>3.0.0</version>
+    <version>7.0.0</version>
     <title>Kevoree Yield Version</title>
     <authors>Manuel Leduc</authors>
     <owners>Kevoree</owners>
@@ -11,12 +11,12 @@
     <iconUrl>https://avatars3.githubusercontent.com/u/5556542?v=3&amp;s=200</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Simple component which yield its version every second</description>
-    <releaseNotes>Yield 3.0.0</releaseNotes>
+    <releaseNotes>Yield 7.0.0</releaseNotes>
     <copyright>Copyright 2015</copyright>
     <tags>Kevoree Component Yield</tags>
     <dependencies>
       <group>
-        <dependency id="org-kevoree-annotation" version="2.0.1" />
+        <dependency id="org-kevoree-annotation" version="2.0.5" />
         <dependency id="org-kevoree-api" version="1.2.0" />
         <dependency id="org-kevoree-log" version="1.0.1" />
       </group>

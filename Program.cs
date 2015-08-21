@@ -9,10 +9,10 @@ namespace Org.Kevoree.YieldVersion
 {
 
 	[ComponentType]
-	class YieldVersion
+    class YieldVersion : MarshalByRefObject, DeployUnit
 	{
 		private bool StopMe;
-		private readonly string VERSION = "3.0.0";
+		private readonly string VERSION = "7.0.0";
 		private Log.Log logger = Log.LogFactory.getLog (typeof(YieldVersion).ToString (), Log.Level.DEBUG, "YieldVersion");
 
 		[Output]
