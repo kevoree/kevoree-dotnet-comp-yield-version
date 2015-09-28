@@ -1,8 +1,8 @@
-<?xml version="1.0"?>
-<package >
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-	<id>org-kevoree-yield-version</id>
-    <version>7.0.2</version>
+    <id>org-kevoree-yield-version</id>
+    <version>7.0.1</version>
     <title>Kevoree Yield Version</title>
     <authors>Manuel Leduc</authors>
     <owners>Kevoree</owners>
@@ -11,8 +11,18 @@
     <iconUrl>https://avatars3.githubusercontent.com/u/5556542?v=3&amp;s=200</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Simple component which yield its version every second</description>
-    <releaseNotes>Yield 7.0.2 - Serializable</releaseNotes>
+    <releaseNotes>Yield 7.0.1</releaseNotes>
     <copyright>Copyright 2015</copyright>
     <tags>Kevoree Component Yield</tags>
+    <dependencies>
+      <group>
+        <dependency id="org-kevoree-annotation" version="2.0.5" />
+        <dependency id="org-kevoree-api" version="1.2.0" />
+        <dependency id="org-kevoree-log" version="1.0.1" />
+      </group>
+    </dependencies>
   </metadata>
+  <files>
+    <file src="bin/Release/YieldVersion.dll" target="lib/net40/YieldVersion.dll" />
+  </files>
 </package>
